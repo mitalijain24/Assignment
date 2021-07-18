@@ -1,0 +1,88 @@
+
+$ mkdir GitAssignment
+
+$ cd GitAssignment/
+
+$ git init
+
+$ notepad Sample.txt
+
+$ git add Sample.txt
+
+$ git commit -m "Initial Commit"
+
+$ git log
+
+$ notepad File1.txt
+
+$ notepad File2.txt
+
+$ notepad File3.txt
+
+$ git checkout -b Dev
+
+$ git add File1.txt
+
+$ git commit -m "File1 - Commit"
+
+$ git status
+
+$ git checkout master
+
+$ git checkout -b Test
+
+$ git add File2.txt
+
+$ git commit -m "File2 - Commit"
+
+$ git add File3.txt
+
+$ git commit -m "File3 - Commit"
+
+$ git log
+
+$ git checkout Dev
+
+$ notepad File1.txt
+
+$ git status
+
+$ git log
+
+$ git add File1.txt
+
+$ git commit -m "File1 - Modified and Commit"
+
+$ git log
+
+$ git diff d3d87299fea27dd79fad6e9447f9ba8708d905bd 3764245f0b0b57c94621b9933ec08a1d12479630
+
+$ git status
+
+$ git checkout master
+
+$ git merge Dev
+
+$ git merge Test
+
+$ git branch
+ 
+$ git remote add origin https://github.com/mitalijain24/Assignment.git
+
+$ git push -u origin master
+
+$ cd ..
+
+$ git clone https://github.com/mitalijain24/Assignment.git
+
+$ cd Assignment
+
+$ notepad Solution.txt
+
+$ git add Solution.txt
+
+$ git commit -m "Final Commit"
+
+$ git log
+
+$ git push -u origin master
